@@ -4,5 +4,5 @@ jobs:
     steps:
       - ls
     image: node:18
-    annotations:
-      screwdriver.cd/buildPeriodically: H * * * *
+#     annotations:
+#       screwdriver.cd/buildPeriodically: H * * * *
